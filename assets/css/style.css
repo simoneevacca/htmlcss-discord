@@ -314,10 +314,24 @@ nav {
 .title_foot {
     color: var(--foot-title-color);
 }
+#language {
+    color: white;
+    width: 100%;
+}
 
 #ita {
     width: 20px;
+    
 }
+.social {
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+}
+i {
+    margin-right: 13px;
+}
+
 
 .utility_footer {
     height: 100px;
