@@ -8,7 +8,7 @@ body {
 }
 
 :root {
-    --main-color: rgba(35, 39, 42, 1);
+    --main-color: rgba(49, 97, 224, 1);
     --light-color: rgba(114, 137, 218, 1);
     --lighter-color: rgba(246, 246, 246, 1);
     --dark-color: rgba(35, 39, 42, 1);
@@ -47,7 +47,7 @@ body {
 
 header {
     height: 50px;
-    background-color: aqua;
+    background-color: var(--main-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,13 +57,11 @@ header {
 
 nav {
     height: 30px;
-    background-color: orange;
     width: 75%;
     display: flex;
 }
 
 .nav {
-    border: 3px dashed black;
     justify-content: center;
     align-items: center;
 
@@ -71,24 +69,37 @@ nav {
 
 
 .logo {
-    flex-grow: 1;
+    width: 25%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
 }
 
 .link {
-    flex-grow: 3;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
 .login {
-    flex-grow: 1;
+    width: 25%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
+}
+
+.login_button {
+    background-color: var(--lighter-color);
+    text-decoration: none;
+    color: black;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
 .click_link {
@@ -97,6 +108,10 @@ nav {
     gap: 20px;
 }
 
+.nav_link {
+    color: var(--lighter-color);
+    text-decoration: none;
+}
 
 /* #endregion nav */
 /* #endregion header */
