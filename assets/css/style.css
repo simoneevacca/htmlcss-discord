@@ -47,6 +47,18 @@ body {
     width: 100%;
     fill: aliceblue;
 }
+
+    h2 {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .p_section {
+        font-size: 1.55rem;;
+    }
+
 /* #endregion utility  */
 
 
@@ -175,13 +187,8 @@ nav {
 .text_server {
     width: 35%;
 }
-h2 {
-    font-size: 60px;
-    margin-bottom: 0;
-}
-.p_section {
-    font-size: 1.55rem;;
-} 
+
+
 
 
 .channel {
@@ -203,14 +210,6 @@ h2 {
 .text_channel {
     width: 35%;
 }
-h2 {
-    font-size: 60px;
-    margin-bottom: 0;
-}
-.p_section {
-    font-size: 1.55rem;;
-}
-
 
 
 
@@ -233,48 +232,91 @@ h2 {
 .text_comunity {
     width: 35%;
 }
-h2 {
-    font-size: 60px;
-    margin-bottom: 0;
-}
-.p_section {
-    font-size: 1.55rem;;
-}
+
 
 
 
 .tecnology {
-    background-color: rgb(201, 201, 201);
-    height: 700px;
+    display:flex ;
+    justify-content: center;
+    background-color: var(--lighter-color);
+    height: 1300px;
 }
 
-.tecnology_block {
-    background-color: green;
+.tecnology_container {
     width: 75%;
-    height: 650px;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+.text_tecnology {
+    text-align: center;
+}
+.image_tecnology {
+    width: 100%;
+    height: 620px;
+    background-image: url(../img/item4-big.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ready {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    margin-top: 5rem;
+}
+
+.mac-2 {
+    margin-top: 30px;
+    background-color: var(--button-color);
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+
 
 /* #endregion main */
 
 /* #region footer */
 
+
 .main_footer {
     height: 400px;
-    background-color: rgb(31, 31, 31);
+    background-color: var(--dark-color);
     border-bottom: 3px solid white;
 }
 
+.foot_container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
 .big_foot {
-    background-color: brown;
     width: 23%;
-    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .small_foot {
     background-color: rgb(1, 157, 157);
-    width: 13%;
-    height: 350px;
+    flex-grow: 1;
+    
     border: 3px dashed white;
+}
+
+.title_foot {
+    color: var(--foot-title-color);
+}
+
+#ita {
+    width: 20px;
 }
 
 .utility_footer {
