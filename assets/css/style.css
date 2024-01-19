@@ -185,14 +185,63 @@ h2 {
 
 
 .channel {
-    background-color: rgb(201, 201, 201);
+    background-color: var(--lighter-color);
     padding: 100px 0 100px 0;
+    height: 900px;
 }
+.channel_container {
+    width: 75%;
+    display: flex;
+}   
+.image_channel {
+    width: 65%;
+    background-image: url(../img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.text_channel {
+    width: 35%;
+}
+h2 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.p_section {
+    font-size: 1.55rem;;
+}
+
+
+
 
 .comunity {
     background-color: white;
     padding: 100px 0 100px 0;
+    height: 900px;
 }
+.comunity_container {
+    width: 75%;
+    display: flex;
+}   
+.image_comunity {
+    width: 65%;
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.text_comunity {
+    width: 35%;
+}
+h2 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.p_section {
+    font-size: 1.55rem;;
+}
+
+
 
 .tecnology {
     background-color: rgb(201, 201, 201);
