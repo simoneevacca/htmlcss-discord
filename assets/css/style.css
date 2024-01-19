@@ -1,0 +1,192 @@
+/* #region general */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* #endregion general */
+
+/* #region utility  */
+.content {
+    border: 3px dashed black;
+}
+
+.section{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_block {
+    background-color: dodgerblue;
+    height: 300px;
+    width: 45%;
+}
+
+.small_block {
+    background-color: pink;
+    height: 300px;
+    width: 30%;
+}
+/* #endregion utility  */
+
+
+/* #region header */
+
+header {
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #region nav */
+
+nav {
+    height: 30px;
+    background-color: orange;
+    width: 75%;
+    display: flex;
+}
+
+.nav {
+    border: 3px dashed black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link {
+    flex-grow: 3;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.click_link {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.click_link>li {
+    /* margin: 0 2px 0 2px; */
+}
+
+/* #endregion nav */
+/* #endregion header */
+
+/* #region main */
+
+.introduction {
+    background-color: blue;
+    height: 400px;
+}
+
+.intro {
+    background-color: rgb(238, 141, 228);
+    width: 50%;
+    height: 300px;
+}
+
+.server {
+    background-color: white;
+    height: 350px;
+}
+
+.channel {
+    background-color: rgb(201, 201, 201);
+    height: 350px;
+}
+
+.comunity {
+    background-color: white;
+    height: 350px;
+}
+
+.tecnology {
+    background-color: rgb(201, 201, 201);
+    height: 700px;
+}
+
+.tecnology_block {
+    background-color: green;
+    width: 75%;
+    height: 650px;
+}
+
+/* #endregion main */
+
+/* #region footer */
+
+.main_footer {
+    height: 400px;
+    background-color: rgb(31, 31, 31);
+    border-bottom: 3px solid white;
+}
+
+.big_foot {
+    background-color: brown;
+    width: 23%;
+    height: 350px;
+}
+
+.small_foot {
+    background-color: rgb(1, 157, 157);
+    width: 13%;
+    height: 350px;
+    border: 3px dashed white;
+}
+
+.utility_footer {
+    height: 100px;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    align-items: flex-end;
+}
+
+.utility_container {
+    width: 75%;
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_logo {
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.button {
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+/* #endregion footer */
+
