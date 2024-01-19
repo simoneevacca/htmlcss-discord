@@ -33,15 +33,19 @@ body {
 }
 
 .big_block {
-    background-color: dodgerblue;
-    height: 300px;
+    height: 425px;
     width: 45%;
 }
 
 .small_block {
-    background-color: pink;
-    height: 300px;
+    background-image: pink;
+    height: 425px;
     width: 30%;
+}
+
+.wave>img {
+    width: 100%;
+    fill: aliceblue;
 }
 /* #endregion utility  */
 
@@ -124,42 +128,70 @@ nav {
 .introduction {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 400px;
+    padding: 70px 0 150px 0;
     display: flex;
     flex-direction: column;
 }
-
 .intro {
     width: 50%;
     text-align: center;
     color: var(--lighter-color);
 }
 
-
-
 .mac{
     color: black;
     text-decoration: none;
-    margin: 10px 30px 5px 30px;
+    margin: 10px 10px 5px 10px;
+    background-color: var(--lighter-color);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
 }
 .open{
     color: var(--lighter-color);
     text-decoration: none;
+    margin: 10px 10px 5px 10px;
+    background-color: var(--dark-color);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
 }
+
 
 .server {
     background-color: white;
-    height: 350px;
+    padding: 100px 0 100px 0;
+    height: 900px;
 }
+.server_container {
+    width: 75%;
+    display: flex;
+}   
+.image_server {
+    width: 65%;
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.text_server {
+    width: 35%;
+}
+h2 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.p_section {
+    font-size: 1.55rem;;
+} 
+
 
 .channel {
     background-color: rgb(201, 201, 201);
-    height: 350px;
+    padding: 100px 0 100px 0;
 }
 
 .comunity {
     background-color: white;
-    height: 350px;
+    padding: 100px 0 100px 0;
 }
 
 .tecnology {
