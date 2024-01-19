@@ -7,6 +7,14 @@ body {
     margin: 0;
 }
 
+:root {
+    --main-color: rgba(35, 39, 42, 1);
+    --light-color: rgba(114, 137, 218, 1);
+    --lighter-color: rgba(246, 246, 246, 1);
+    --dark-color: rgba(35, 39, 42, 1);
+    --foot-title-color: rgba(114, 137, 218, 1);
+    --button-color: rgba(142, 161, 225, 1);
+}
 
 /* #endregion general */
 
@@ -89,9 +97,6 @@ nav {
     gap: 20px;
 }
 
-.click_link>li {
-    /* margin: 0 2px 0 2px; */
-}
 
 /* #endregion nav */
 /* #endregion header */
